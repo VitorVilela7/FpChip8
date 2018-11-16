@@ -68,3 +68,5 @@
 # Vitor Vilela edit
 # Add ROMs folder.
 !roms*
+# Add Altera IP files . . .
+!*.qip
