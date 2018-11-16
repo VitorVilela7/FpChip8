@@ -1,3 +1,11 @@
+------------------------------------------------------------
+-- Main DE1 Board
+-- By Vitor Vilela (2018-10-31)
+--
+-- Does not require external accessories other than the
+-- Altera DE1 Board itself.
+------------------------------------------------------------
+
 library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;

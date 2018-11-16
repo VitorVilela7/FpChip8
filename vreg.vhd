@@ -1,3 +1,10 @@
+------------------------------------------------------------
+-- CHIP-8 Register Bank (V0-VF)
+-- By Vitor Vilela (2018-11-02)
+--
+-- Contains all general purpose registers.
+------------------------------------------------------------
+
 library IEEE;
 use IEEE.std_logic_1164.all;
 

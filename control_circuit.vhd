@@ -1,3 +1,11 @@
+------------------------------------------------------------
+-- CHIP-8 Control Circuit
+-- By Vitor Vilela (2018-11-03)
+--
+-- Circuit responsible for controlling most of the Chip-8
+-- Data Path and used to communicate with other cores.
+------------------------------------------------------------
+
 library IEEE;
 use IEEE.std_logic_1164.all;
 

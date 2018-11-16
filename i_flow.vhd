@@ -1,3 +1,9 @@
+------------------------------------------------------------
+-- CHIP-8 Memory Address (I) Data Path
+-- By Vitor Vilela (2018-11-15)
+--
+------------------------------------------------------------
+
 library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;

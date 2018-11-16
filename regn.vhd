@@ -1,3 +1,10 @@
+------------------------------------------------------------
+-- Generic n-bit register.
+-- By Vitor Vilela (2016)
+--
+-- To reset the register, both RST and EN should be HIGH.
+------------------------------------------------------------
+
 library IEEE;
 use IEEE.std_logic_1164.all;
 

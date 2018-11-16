@@ -1,3 +1,19 @@
+------------------------------------------------------------
+-- Full CHIP-8 Programmer.
+-- By Vitor Vilela (2018-11-05)
+--
+-- See also: c8_prog_rom.vhd
+--
+-- If you want to add or remove games, please look on the
+-- ROMs folder, which includes all individual files and the
+-- romtb utility which allows you building the ROM structure
+-- and table (used by c8_prog_full.vhd).
+--
+-- None of the below games are owned nor made by me. Please
+-- let me know if you are one of the authors and would like
+-- to credited for you work!
+------------------------------------------------------------
+
 library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;

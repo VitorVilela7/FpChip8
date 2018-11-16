@@ -1,3 +1,11 @@
+------------------------------------------------------------
+-- CHIP-8 Key Selector.
+-- By Vitor Vilela (2018-11-02)
+--
+-- Circuit responsible for selecting and parsing the input
+-- keys and feed to the control circuit.
+------------------------------------------------------------
+
 library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;

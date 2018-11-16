@@ -1,3 +1,11 @@
+------------------------------------------------------------
+-- CHIP-8 ALU
+-- By Vitor Vilela (2018-11-02)
+--
+-- Circuit responsible for the most of the aritmetic
+-- operations.
+------------------------------------------------------------
+
 library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;

@@ -1,3 +1,10 @@
+------------------------------------------------------------
+-- Pseudo-Random Number Generator
+-- By Vitor Vilela (2018-11-02)
+--
+-- Generates a 8-bit random number based on Galois LFSR.
+------------------------------------------------------------
+
 library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;

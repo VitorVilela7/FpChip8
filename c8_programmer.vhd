@@ -1,3 +1,14 @@
+------------------------------------------------------------
+-- Standard Chip-8 Programmer
+-- By Vitor Vilela (2018-11-04)
+--
+-- Programs the CHIP-8 using a single ROM image.
+-- START flag is not protected from metastability.
+--
+-- If the programmer ends up softlocked, please pass START
+-- flag though two DFF. See c8_prog_full.vhd for reference.
+------------------------------------------------------------
+
 library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;

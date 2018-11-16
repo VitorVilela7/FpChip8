@@ -1,3 +1,11 @@
+------------------------------------------------------------
+-- Hex-to-Decimal-BCD Converter
+-- By Vitor Vilela (2018-11-02)
+--
+-- Converts the 8-bit hexadecimal number to 10-bit BCD
+-- formatted number. Based on Double Dabble algorithm.
+------------------------------------------------------------
+
 library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;

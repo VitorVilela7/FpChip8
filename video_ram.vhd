@@ -1,3 +1,9 @@
+------------------------------------------------------------
+-- CHIP-8 Video Memory.
+-- By Vitor Vilela (2018-11-03)
+--
+------------------------------------------------------------
+
 library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;

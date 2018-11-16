@@ -1,3 +1,11 @@
+------------------------------------------------------------
+-- CHIP-8 Main Module.
+-- By Vitor Vilela (2018-10-31)
+--
+-- Main CHIP-8 module responsible for connecting all
+-- required components to run CHIP-8.
+------------------------------------------------------------
+
 library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;

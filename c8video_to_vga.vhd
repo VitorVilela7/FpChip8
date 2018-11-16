@@ -1,3 +1,11 @@
+------------------------------------------------------------
+-- "Chip-8 Video to VGA Converter"
+-- By Vitor Vilela (2018-11-04)
+--
+-- Feeds Chip-8 video inputs according the current VGA
+-- X/Y output.
+------------------------------------------------------------
+
 library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;

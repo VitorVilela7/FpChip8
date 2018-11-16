@@ -1,10 +1,15 @@
---
+------------------------------------------------------------
 -- Standard VGA Output Driver
+-- By Vitor Vilela (2016-11-06)
+--
 -- Default: 640x480 @ 60 Hz
 --
 -- 640x480 @ 60 Hz generic map: (8,  96,40,8,640,8,2, 2,25,8,480,8) at 25 MHz
 -- 800x600 @ 72 Hz generic map: (53,120,61,3,800,3,35,6,21,2,600,2) at 50 MHz
 --
+-- Adapted for outputting 640x480 at 50 MHz. Please remove the TOGGLE DFF if
+-- you wish to use other resolutions.
+------------------------------------------------------------
 
 library IEEE;
 use IEEE.std_logic_1164.all;

@@ -1,3 +1,10 @@
+------------------------------------------------------------
+-- CHIP-8 Counter
+-- By Vitor Vilela (2018-11-02)
+--
+-- Circuit responsible for counting up.
+------------------------------------------------------------
+
 library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
