@@ -64,3 +64,7 @@
 !*.tcl
 
 # End of https://www.gitignore.io/api/alteraquartusii
+
+# Vitor Vilela edit
+# Add ROMs folder.
+!roms*
