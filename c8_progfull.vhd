@@ -24,7 +24,7 @@ use std.textio.all;
 entity c8_progfull is
    port( CLK         : in std_logic;
          START       : in std_logic;
-         GM_SEL      : in std_logic_vector(5 downto 0);
+         GM_SEL      : in unsigned(5 downto 0);
          PROG_FLAG   : in std_logic;
          PROG_ADDR   : out std_logic_vector(11 downto 0);
          PROG_DATA   : out std_logic_vector(7 downto 0);
@@ -188,7 +188,7 @@ begin
       if rising_edge(CLK) then
          CURRENT_STATE <= STATE;
          FONT_Q <= FONT(to_integer(ADDR(6 downto 0)));
-         ADDR_BASE <= TABLE(to_integer(unsigned(GM_SEL)));
+         ADDR_BASE <= TABLE(to_integer(GM_SEL));
          START_COPY <= START;
          START_COPY2 <= START_COPY;
       end if;

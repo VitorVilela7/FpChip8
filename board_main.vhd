@@ -46,7 +46,7 @@ architecture rtl of board_main is
 begin
    c8 : entity work.chip8 port map(CLOCK_50, KEY_RES, PROG_N, PROG_ADDR, PROG_DATA, VIDEO_X, VIDEO_Y, VIDEO_OUT, BEEP_OUT, PROG_FLAG);
    
-   c8p : entity work.c8_progfull port map(CLOCK_50, SW(9), SW(8 downto 3), PROG_FLAG, PROG_ADDR, PROG_DATA, PROG_N);
+   c8p : entity work.c8_progfull port map(CLOCK_50, SW(9), unsigned(SW(8 downto 3)), PROG_FLAG, PROG_ADDR, PROG_DATA, PROG_N);
    
    vga : entity work.std_vga port map(CLOCK_50, R, G, B, open, open, X_EN, Y_EN, X_ZERO, Y_ZERO, VGA_HS, VGA_VS, VGA_R, VGA_G, VGA_B);
    
